@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/security_monitor.dir/src/Event.cpp.o CMakeFiles/security_monitor.dir/src/main.cpp.o -o security_monitor 

@@ -1,3 +1,0 @@
-/home/fcavaleti/cpp-studies/classes_review/security_monitor/build/CMakeFiles/security_monitor.dir
-/home/fcavaleti/cpp-studies/classes_review/security_monitor/build/CMakeFiles/edit_cache.dir
-/home/fcavaleti/cpp-studies/classes_review/security_monitor/build/CMakeFiles/rebuild_cache.dir
