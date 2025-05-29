@@ -4,7 +4,7 @@
 
 // Tipos de eventos a serem monitorados
 
-enum class EventType
+enum class EventType // Enum class 
 {
     LOGIN_FAIL,
     LOGIN_SUCCESS,
