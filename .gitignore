@@ -1,5 +1,5 @@
 # Build artifacts
-/build/
+build/
 /CMakeFiles/
 /CMakeCache.txt
 /Makefile
@@ -13,7 +13,6 @@
 *.so
 *.a
 *.dll
-security_monitor
 
 # IDEs and editors
 .vscode/

@@ -2,17 +2,6 @@
 
 - Projeto: Sistema de monitoramento de eventos
 
-## Anotações
-
-- std::move() é uma função que converte um objeto em um rvalue e realiza a transferência de seus recursos para outro objeto, evitando cópias e deixando o código mais otimizado
-
-- noexcept é uma especificação que indica que uma função não lança exceções. Com isso o compilador irá gerar o código de maneira mais eficiente, também facilita o entendimento do código para quem está lendo
-
-- Construtor: Utilizar a lista de inicialização tem melhor performance que atribuição dentro do corpo
-
-
-- RAII: Técnica de gerenciamento de recursos em que a alocação e liberação dos recursos estão ligadas ao tempo de vida de um objeto. Geralmente realizamos a aquisição do recurso no construtor e a liberação no destrutor, garantindo que nenhum recurso fique vazando, mesmo se ocorrer uma exceção.
-
 
 ## Project tree
 
