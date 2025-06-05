@@ -2,4 +2,4 @@
 #include <string>
 
 
-static std::string base64_encode(std::string& in);
+const std::string base64_encode(const std::string& in);

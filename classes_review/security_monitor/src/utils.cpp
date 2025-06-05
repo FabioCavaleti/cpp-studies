@@ -1,6 +1,6 @@
 #include "utils.h"
 
-static std::string base64_encode(const std::string &in) {
+const std::string base64_encode(const std::string &in) {
 
   std::string out;
 
