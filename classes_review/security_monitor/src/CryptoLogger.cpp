@@ -1,4 +1,7 @@
 #include "CryptoLogger.h"
+#include <iostream>
+
+
 
 CryptoLogger::CryptoLogger(const std::string &filepath,
                            std::function<std::string(const std::string &)> encryptFunc)
@@ -19,7 +22,8 @@ void CryptoLogger::logEvent(const std::string& plaintext)
     if (file_.is_open())
     {
         std::string ciphertext = encryptFunc_(plaintext);
-        file_ << ciphertext << "\n";
+        std::string enconded_ciphertext = base64_encode(ciphertext);
+        file_ << enconded_ciphertext << "\n";
     }
 }
 
